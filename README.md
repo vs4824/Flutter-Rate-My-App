@@ -14,7 +14,7 @@ On iOS, if you want to target a version before 10.3, add this in your Info.plist
 
    `<key>LSApplicationQueriesSchemes</key>
    <array>
-   <string>itms</string>
+   <string>itms</string> 
    </array>`
 
 By the way, it's important to note that your bundle identifier (in your Info.plist) must match the App ID on iTunes Connect and the package identifier (in your build.gradle) must match your App ID on Google Play. Oh, and your project must use Swift.
